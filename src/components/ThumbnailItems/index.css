@@ -1,0 +1,12 @@
+.thumbnailItem {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.thumbnailImg {
+  width: 60px;
+  height: 60px;
+}
+.thumbBtn {
+  background-color: transparent;
+  border-width: 0px;
+}

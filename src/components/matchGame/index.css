@@ -1,0 +1,89 @@
+.header {
+  background-color: #2c0e3a;
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.appLogo {
+  height: 34px;
+  width: 120px;
+}
+.headerCont {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.score {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.timer {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.timerIcon {
+  width: 24px;
+}
+.gameSec {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  min-height: 100vh;
+  max-height: cover;
+  background-size: cover;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+.randomImg {
+  width: 50%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.tabsCont {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  color: white;
+}
+.thumbnail {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.againSec {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  width: 60%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.prize {
+  width: 300px;
+}
+.againBtn {
+  background-color: darkmagenta;
+  padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 4px;
+  width: 30%;
+  color: white;
+}
